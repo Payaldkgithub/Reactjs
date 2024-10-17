@@ -1,0 +1,30 @@
+.box{
+    margin-left: 10px;
+    height:60px;
+    width:85px;
+    box-shadow: 2px 2px 2px 2px rgb(42, 42, 44);
+}
+.boxes{
+    margin: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px
+}
+.btns{
+    margin: auto;
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-around;
+    gap:20px;
+    
+}
+.btn{
+    height: 50px;
+    width:100px;
+    color:white;
+    border-radius: 5px;
+    outline: none;
+    overflow: hidden;
+    font-size: 20px;
+}

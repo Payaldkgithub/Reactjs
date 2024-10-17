@@ -1,0 +1,33 @@
+ .main{
+    height: 300px;
+    width:400px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.appDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+.abc{
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.btn{
+    width:100px;
+    height:30px;
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+}
+.rgb{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+}

@@ -1,0 +1,13 @@
+#abc{
+    background-color: yellow;
+    color:red;
+    padding: 20px 40px;
+    border: 2px solid blue;
+}
+.xyz{
+    background-color: brown;
+    color:white;
+    padding: 30px;
+    border: 2px solid green;
+    font-size: 30px;
+}

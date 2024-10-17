@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+.watch{
+    height: 98vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    
+}
+.stopwatch{
+    height:300px;
+    width:500px;
+    background-color: gray;
+    color:white;
+    font-size: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btns{
+    /* height: 200px; */
+    display: flex;
+    width: 300px;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    gap:20px;
+    
+    
+}
+.btn{
+    height: 50px;
+    width:100px;
+    color:white;
+    border-radius: 5px;
+    outline: none;
+    overflow: hidden;
+    font-size: 20px;
+}

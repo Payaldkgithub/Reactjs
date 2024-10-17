@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px
+  }
+  .main{
+    height:100vh;
+    width: 100%;
+  }
+ 
+  .inputs::placeholder{
+    text-align: center;
+    color: rgb(170, 101, 101) !important;
+    font-size: 22px;
+  }
+  .tasks{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 0 20px;
+    gap:20px 30px;
+  }
+  .task{
+    display: flex;
+    height: 150px;
+    width: 250px;
+    background-color: orange;
+    color:white;
+    padding: 5px;
+  }
+  .task>h1{
+    height:100%;
+    color:white;
+    flex-grow: 1;
+  }
+  .task>.buttons{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: space-around;
+  }
+  .task>.buttons>button{
+    padding: 5px 8px;
+  }
